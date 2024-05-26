@@ -15,7 +15,7 @@
 ### 1. Install via composer
 
 ```bash
-composer require laborb/bunny-stream
+composer require localghost8000/bunny-stream
 ```
 
 ### 2. Insert CSS and JS files
