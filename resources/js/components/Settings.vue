@@ -29,7 +29,7 @@
                         <div class="input-group">
                             <input type="text" id="thumbnail" name="thumbnail" v-model="thumbnailUrl" class="input-text">
                         </div>
-                        <small class="text-xs">Wenn das Thumbnail geändert werden soll, kann hier die direkte URL zum neuen Bild eingegeben werden.</small>
+                        <small class="text-xs">If you want to change the thumbnail, you can enter the direct URL to the new image here.</small>
                     </div>
                 </div>
                 <div class="px-5 py-3 bg-gray-200 rounded-b-lg border-t flex items-center justify-end text-sm">
@@ -88,12 +88,12 @@ export default {
             axios
             .request(options)
             .then((response) => {
-                this.$toast.success('Videoname wurde geändert');
+                this.$toast.success('Video name has been changed');
                 this.$progress.complete('title');
                 emitter.emit('load');
             })
             .catch((error) => {
-                this.$toast.error('Fehler beim Speichern');
+                this.$toast.error('Error while saving');
                 console.error(error);
                 this.$progress.complete('title');
             });
@@ -111,13 +111,13 @@ export default {
             axios
             .request(options)
             .then((response) => {
-                this.$toast.success('Thumbnail wurde geändert.');
+                this.$toast.success('Thumbnail has been changed.');
                 this.thumbnailUrl = null;
                 this.$progress.complete('thumbnail');
                 emitter.emit('load');
             })
             .catch((error) => {
-                this.$toast.error('Fehler beim Ändern des Thumbnails');
+                this.$toast.error('Error changing thumbnail');
                 console.error(error);
                 this.$progress.complete('thumbnail');
             });

@@ -93,9 +93,9 @@ export default {
             this.uppy.on('complete', (result) => {
                 if(result.successful.length > 0) {
                     if(result.successful.length == 1) {
-                        this.$toast.success(result.successful.length + ' Video erfolgreich hochgeladen.');
+                        this.$toast.success(result.successful.length + ' Video uploaded successfully.');
                     } else {
-                        this.$toast.success(result.successful.length + ' Videos erfolgreich hochgeladen.');
+                        this.$toast.success(result.successful.length + ' Videos uploaded successfully.');
                     }
                 }
 

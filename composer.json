@@ -1,13 +1,13 @@
 {
-    "name": "laborb/bunny-stream",
-    "description": "Upload and embed videos from Bunny Stream",
+    "name": "localghost8000/bunny-stream",
+    "description": "Upload and embed videos from Bunny Stream. English fork.",
     "type": "statamic-addon",
     "keywords": ["statamic-addon","video","hosting","streaming","bunny.net"],
     "homepage": "https://laborb.de",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Laborb\\BunnyStream\\": "src"
+            "localghost8000\\BunnyStream\\": "src"
         }
     },
     "authors": [
@@ -16,6 +16,12 @@
             "email": "jf@laborb.de",
             "homepage": "https://laborb.de",
             "role": "Developer"
+        },
+        {
+            "name": "Ben Loeffler",
+            "email": "b@lben.direct",
+            "homepage": "https://ben.direct",
+            "role": "Translator"
         }
     ],
     "require": {

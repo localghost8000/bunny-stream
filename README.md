@@ -69,7 +69,7 @@ php artisan vendor:publish --tag=bunny-config
 
 ### Upload videos
 
-A new CP navigation item appears: `Videobrowser`
+A new CP navigation item appears: `Videos`
 There you can upload and rename your video files.
 When they are uploaded, they need to be processed. The videos are processed directly at bunny. The given progress indicator displays bunnys progress.
 After the processing is done the video is available in the videobrowser and in the included fieldtype.

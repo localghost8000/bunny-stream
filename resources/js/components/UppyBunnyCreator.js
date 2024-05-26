@@ -68,7 +68,7 @@ class UppyBunnyCreator extends UIPlugin {
             return 0;
         } else {
             if(!this.validateTime(hms)) {
-                this.uppy.info('Falsches Zeitformat für die Thumbnailerstellung.', 'error', 3000);
+                this.uppy.info('Incorrect time format for thumbnail creation.', 'error', 3000);
                 throw new Error('Wrong timestamp format for thumbnail creation.');
             }
         }

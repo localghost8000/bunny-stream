@@ -229,7 +229,7 @@
                             class="flex flex-col overflow-hidden bg-white rounded shadow-xl w-full mb-4 p-6 items-center justify-center"
                         >
                             <h2 class="text-lg">
-                                Video wird verarbeitet -
+                                Video is being processed -
                                 {{ video.encodeProgress * 2 }}%
                             </h2>
                             <p class="text-xs text-gray-600">
@@ -241,7 +241,7 @@
                                     confirmDeletion(video.guid, video.title)
                                 "
                             >
-                                Abbrechen und Video löschen
+                                This may take some time.
                             </button>
                             <div role="status" class="mt-4 mx-auto">
                                 <svg
@@ -273,7 +273,7 @@
             v-else
             class="flex flex-col overflow-hidden border-gray-600 border-dashed border-2 rounded shadow-xl w-full mb-4 p-6 items-center justify-center"
         >
-            <h2 class="text-xl">Video hochladen</h2>
+            <h2 class="text-xl">Upload video</h2>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -399,7 +399,7 @@ export default {
                 .then((response) => {
                     this.cancelDeletion();
                     this.loading = false;
-                    this.$toast.success("Video erfolgreich gelöscht.");
+                    this.$toast.success("Video deleted successfully.");
                     this.getVideos();
                 })
                 .catch(function (error) {
