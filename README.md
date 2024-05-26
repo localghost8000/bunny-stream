@@ -139,7 +139,7 @@ fields:
       type: toggle
       display: Controls
       icon: toggle
-      instructions: "Ohne Controls wird das Video automatisch gemuted und im Loop automatisch abgespielt."
+      instructions: "Without controls, the video is automatically muted and played automatically in a loop."
       listable: hidden
       instructions_position: above
       visibility: visible
@@ -148,9 +148,9 @@ fields:
     field:
       default: true
       type: toggle
-      display: "Responsive Darstellung"
+      display: "Responsive display"
       icon: toggle
-      instructions: "Stellt das Video in der entsprechenden Ratio responsiv dar."
+      instructions: "Displays the video responsively in the appropriate ratio."
       width: 33
       listable: hidden
       instructions_position: above
@@ -164,7 +164,7 @@ fields:
       type: text
       display: Breite
       icon: text
-      instructions: "Breite des Videos"
+      instructions: "Width of the video"
       width: 33
       listable: hidden
       instructions_position: above
@@ -180,7 +180,7 @@ fields:
       type: text
       display: Höhe
       icon: text
-      instructions: "Höhe des Videos"
+      instructions: "Height of the video"
       width: 33
       listable: hidden
       instructions_position: above
@@ -199,7 +199,7 @@ fields:
       type: button_group
       display: Ratio
       icon: button_group
-      instructions: "Das Bildverhältnis des Videos. Nur in responsiver Darstellung möglich."
+      instructions: "The aspect ratio of the video. Only possible in responsive display."
       listable: hidden
       instructions_position: above
       visibility: visible
