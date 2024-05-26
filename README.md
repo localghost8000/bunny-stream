@@ -1,6 +1,6 @@
 # Bunny Stream
 
-> Bunny Stream is a Statamic addon that integrates the Bunny Stream API for single Stream libraries in the Statamic CP.
+> Bunny Stream is a Statamic addon that integrates the Bunny Stream API for single Stream libraries in the Statamic CP. English fork of laborb/bunny-stream
 
 ## Features
 
